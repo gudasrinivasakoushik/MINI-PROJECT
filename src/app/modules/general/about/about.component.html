@@ -1,0 +1,74 @@
+<h2>KOUSHIK SPORTS SHOP
+</h2><hr>
+<style>
+    .content {
+  max-width: 500px;
+  margin: auto;
+}
+</style><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <tr>
+    <td colspan="3">
+<input type="text" class="form-control" placeholder="Search" />
+    </td><br>
+    <td colspan="2">
+        <select  class="form-control" > 
+            <option [value]='1'>
+                A-Z
+            </option>
+            <option [value]='2'>
+                low-high
+            </option>
+            <br>
+        </select>
+    </td>
+</tr><br>
+<br>
+&nbsp;
+<table border="2" >
+    <tr>
+        <th  class="bg-success text-white">
+            PRODUCT NUMBER
+        </th>
+        <th class="bg-success text-white">
+            PRODUCT NAME
+        </th >
+        <th class="bg-success text-white">
+            PRODUCT PRICE
+        </th>
+        <th class="bg-success text-white">
+            DESCRIPTION
+        </th>
+        <th class="bg-success text-white">
+            PRODUCT DISPLAY
+        </th>
+    </tr>
+    <tr *ngFor="let product of products ">
+
+        <td class="bg-dark text-white">
+               {{product.productId}}
+        </td>
+        <td class="bg-dark text-white">
+            {{product.productName}}
+     </td>
+     <td class="bg-dark text-white">
+        {{product.productPrice}}
+ </td>
+ <td class="bg-dark text-white">
+    {{product.productDes}}
+</td >
+<td class="bg-dark text-white">
+    <img [src]="product.productImg" height="70px" width="90px">
+</td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+
+
+{{errMsg | json}}

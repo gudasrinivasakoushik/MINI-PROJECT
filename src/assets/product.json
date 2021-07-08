@@ -1,0 +1,7 @@
+[
+    {"productId":1, "productName":"cricektbat","productPrice":1500,"productDes":"the product is cricketbat kashmir Willow ","productImg":"assets/images/bat.jpg"}
+    ,{"productId":2, "productName":"cricektball","productPrice":90,"productDes":"the product is cricketball hardtennis","productImg":"assets/images/ball.jpg"}
+    ,{"productId":3, "productName":"gloves","productPrice":400,"productDes":"the product is cricket gloves ","productImg":"assets/images/gloves1.jpg"}
+    ,{"productId":4,"productName":"battingpads","productPrice":900,"productDes":"the product is cricketpads  ","productImg":"assets/images/pads.jpg"}
+    ,{"productId":5, "productName":"helmet","productPrice":600,"productDes":"the product is cricket helmet","productImg":"assets/images/helmet.jpg"}
+]

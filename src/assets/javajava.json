@@ -1,0 +1,6 @@
+[
+    {"courseId":1, "courseName":"basic","coursePrice":400,"courseDescrption":"basic java raining","courseImg":"assets/images/java1.png"},
+    {"courseId":2, "courseName":"collections","coursePrice":600,"courseDescrption":"collections","courseImg":"assets/images/collections.jpg"},
+    {"courseId":3, "courseName":"HTML","coursePrice":600,"courseDescrption":"HTML training","courseImg":"assets/images/html.png"},
+    {"courseId":4, "courseName":"CSS","coursePrice":1500,"courseDescrption":"CSS training","courseImg":"assets/images/css.jpg"}
+]
